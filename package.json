@@ -13,6 +13,21 @@
   "bin": {
     "reasty": "bin/reasty"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theexplay/reasty.git"
+  },
+  "keywords": [
+    "Stylus",
+    "files pattern",
+    "component",
+    "directory",
+    "structure",
+    "helper",
+    "NodeJS",
+    "command-line",
+    "CLI"
+  ],
   "license": "ISC",
   "dependencies": {
     "fs-extra": "^3.0.1"
