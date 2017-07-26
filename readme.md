@@ -1,3 +1,12 @@
+# Reasty.js
+### *Command-line tool for creating components directory structure.*
+
+```
+npm i -g reasty
+```
+
+Add `.reastyrc` to the root of your project, with options.
+```
 {
     "basedir": "src/components",
     "newline": "\n",
@@ -22,3 +31,19 @@
         }
     }
 }
+
+```
+Use from command line to generate files.
+```
+reasty common/header
+// src/components/common/header/header.styl
+// src/components/common/header/header.js
+// src/components/common/header/__.styl
+```
+
+```
+reasty navigation
+// src/components/navigation/navigation.styl
+// src/components/navigation/navigation.js
+// src/components/navigation/__.styl
+```
